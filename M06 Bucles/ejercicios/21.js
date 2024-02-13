@@ -4,6 +4,16 @@ function esPotenciaDeDos(numero) {
   // Devuelve true si lo es, sino devuelve false.
   // PISTA: Utiliza un bucle while.
   // Tu código:
+  if (numero <= 0) {
+    return false;
+  }
+  while (numero > 1) {
+    if (numero % 2 !== 0) {
+      return false;
+    }
+    numero /= 2;
+  }
+  return true;
 }
 
 module.exports = esPotenciaDeDos;
