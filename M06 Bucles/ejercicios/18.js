@@ -6,7 +6,6 @@ function productoEntreNúmeros(a, b) {
     return 0;
   }
   if (a > b) {
-    // Si a es mayor que b, intercambiamos sus valores para garantizar que a sea menor o igual que b.
     [a, b] = [b, a];
   }
   let producto = 1;

@@ -8,14 +8,7 @@ function obtenerPrimerStringLargo(array) {
   }
   return undefined;
 
-  //   for (let i = 0; i < array.length; i++) {
-  //     if (typeof array[i] === "string") {
-  //       if (array[i].length >= 5) {
-  //         return array[i];
-  //       }
-  //     }
-  //   }
-  //   return undefined;
+  
 }
 
 module.exports = obtenerPrimerStringLargo;

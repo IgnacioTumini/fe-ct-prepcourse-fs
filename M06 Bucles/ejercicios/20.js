@@ -6,8 +6,9 @@ function sumarHastaNConBreak(n) {
   let suma = 0;
   for (let index = 1; index <= n; index++) {
     suma += index;
+    if (suma > 100) break;
   }
-  console.log(suma);
+  return suma;
 }
 
 module.exports = sumarHastaNConBreak;

@@ -29,7 +29,6 @@ function diasEnMes(mes) {
         return 30;
       case 12:
         return 31;
-
       default:
         return 0;
     }
